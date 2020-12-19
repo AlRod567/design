@@ -327,7 +327,7 @@ nav .resto-nav {
 }
 
 .menu a {
-    color: #9fc3d1;
+    color: #64cdbc;
     text-decoration: none;
     padding: 0;
     padding-left: 15px;
@@ -351,11 +351,11 @@ nav .resto-nav {
     font-size: 20px;
     cursor: pointer;
     display: none;
-    color: #9fc3d1;
+    color: #64cdbc;
 }
 
 .esconder-menu-btn {
-    color: #9fc3d1;
+    color: #64cdbc;
 }
 
 i.fas.fa-times {
@@ -389,7 +389,9 @@ header {
     padding: 5vw 10vw;
     position: relative;
     background-color: #06090F;
-    background-image: linear-gradient(180deg, #9fc3d1 4%, #f6c41c 20%, #e13d44 46%, #3b3f98 66%, #06090f 84%);
+    background-image: linear-gradient(180deg, #64cdbc 0%, #e13d44 20%, #06090f 46%, #4c19f0 69%, #06090f 86%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .header {
@@ -446,7 +448,7 @@ header .sobre-mi {
 }
 
 p.parrafo {
-    color: #9fc3d1;
+    color: #64cdbc;
     text-align: justify;
     font-weight: 400;
     font-size: 16px;
@@ -526,7 +528,7 @@ main {
     font-size: 32px;
     text-align: left;
     text-decoration: none;
-    color: #3b3f98;
+    color: #4c19f0;
     font-weight: 900;
     letter-spacing: -1px;
     z-index: 2;
@@ -588,7 +590,7 @@ main {
 h6.boton {
     text-align: right;
     font-size: 11px;
-    color: #9fc3d1;
+    color: #64cdbc;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: none;
@@ -625,7 +627,7 @@ footer h3 {
     margin-top: 50px;
     text-align: left;
     font-size: 11px;
-    color: #9fc3d1;
+    color: #64cdbc;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: none;
@@ -648,7 +650,7 @@ footer h3 {
 .footer-right i {
     font-size: 15px;
     line-height: 30px;
-    color: #9fc3d1;
+    color: #64cdbc;
     transition: color 0.5s;
     -webkit-transition-property: color;
     -webkit-transition-duration: 0.5s;
@@ -710,7 +712,7 @@ footer h3 {
     }
 
     .mostrar-menu-btn i {
-        color: #9fc3d1;
+        color: #64cdbc;
         line-height: 25px;
         z-index: 2000;
     }
@@ -719,7 +721,7 @@ footer h3 {
         display: block;
         padding: 20px;
         padding-right: 0;
-        color: #9fc3d1;
+        color: #64cdbc;
         text-align: right;
         font-size: 15px;
         z-index: 2000;
@@ -733,7 +735,7 @@ footer h3 {
 
     .esconder-menu-btn {
         display: block;
-        color: #9fc3d1;
+        color: #64cdbc;
         position: absolute;
         line-height: 80px;
         top: 0;
