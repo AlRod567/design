@@ -264,6 +264,33 @@ a {
     font-display: swap;
 }
 
+/* Monument */
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Regular.eot');
+    src: url('MonumentExtended-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Regular.woff2') format('woff2'),
+        url('MonumentExtended-Regular.woff') format('woff'),
+        url('MonumentExtended-Regular.ttf') format('truetype'),
+        url('MonumentExtended-Regular.svg#MonumentExtended-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Ultrabold.eot');
+    src: url('MonumentExtended-Ultrabold.eot?#iefix') format('embedded-opentype'),
+        url('MonumentExtended-Ultrabold.woff2') format('woff2'),
+        url('MonumentExtended-Ultrabold.woff') format('woff'),
+        url('MonumentExtended-Ultrabold.ttf') format('truetype'),
+        url('MonumentExtended-Ultrabold.svg#MonumentExtended-Ultrabold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
 
 /**/
 
@@ -327,7 +354,7 @@ nav .resto-nav {
 }
 
 .menu a {
-    color: #be1d0b;
+    color: #FE0000;
     text-decoration: none;
     padding: 0;
     padding-left: 15px;
@@ -340,7 +367,7 @@ nav .resto-nav {
 }
 
 .menu a:hover {
-    color: #4C19F0;
+    color: #CDFF00;
 }
 
 .mostrar-menu-btn,
@@ -351,11 +378,11 @@ nav .resto-nav {
     font-size: 20px;
     cursor: pointer;
     display: none;
-    color: #be1d0b;
+    color: #FE0000;
 }
 
 .esconder-menu-btn {
-    color: #be1d0b;
+    color: #FE0000;
 }
 
 i.fas.fa-times {
@@ -373,13 +400,13 @@ i.fas.fa-times {
 
 .mostrar-menu-btn:hover,
 .esconder-menu-btn:hover {
-    color: #4C19F0;
+    color: #CDFF00;
 }
 
 #chk {
     position: absolute;
     z-index: -100;
-    background-color: #be1d0b;
+    background-color: #FE0000;
     border-radius: 50%;
 }
 
@@ -389,7 +416,7 @@ header {
     padding: 5vw 10vw;
     position: relative;
     background-color: #06090F;
-    background-image: linear-gradient(180deg, #f8da2b 0%, #be1d0b 21%, #06090f 40%, #4c19f0 56%, #64cdbc 77%, #06090f 100%);
+    background-image: linear-gradient(180deg, #FE0000 42%, #06090f 100%);
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(10px);
 }
@@ -415,15 +442,15 @@ header {
 }
 
 header h1.titulo {
+    font-family: 'Monument';
     position: absolute;
     top: 150px;
-    color: #4C19F0;
-    font-weight: 800;
+    color: #CDFF00;
+    font-weight: 100;
     margin-top: 100px;
     margin-left: 5%;
     margin-right: 15%;
-    font-size: 64px;
-    letter-spacing: -3px;
+    font-size: 48px;
     line-height: 60px;
     z-index: 2;
 }
@@ -468,7 +495,7 @@ main {
 
 .trabajo h2 {
     width: 100%;
-    color: #4C19F0;
+    color: #CDFF00;
     font-weight: 100;
     font-size: 48px;
     line-height: 50px;
@@ -527,7 +554,7 @@ main {
     font-size: 32px;
     text-align: left;
     text-decoration: none;
-    color: #be1d0b;
+    color: #CDFF00;
     font-weight: 600;
     letter-spacing: -1px;
     z-index: 2;
@@ -580,7 +607,7 @@ main {
 
 .proyectos h3.titulo-proyect {
     text-decoration: none;
-    color: #be1d0b;
+    color: #FE0000;
     line-height: 500px;
     text-shadow: #06090F 5px 5px 5px;
     font-weight: 400;
@@ -589,7 +616,7 @@ main {
 h6.boton {
     text-align: right;
     font-size: 11px;
-    color: #be1d0b;
+    color: #FE0000;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: none;
@@ -598,7 +625,7 @@ h6.boton {
 }
 
 h6.boton:hover {
-    color: #4C19F0;
+    color: #CDFF00;
 }
 
 footer {
@@ -612,7 +639,7 @@ footer main {
 footer h3 {
     font-size: 48px;
     font-weight: 100;
-    color: #4C19F0;
+    color: #CDFF00;
     margin-bottom: 10px;
     line-height: 45px;
 }
@@ -626,7 +653,7 @@ footer h3 {
     margin-top: 50px;
     text-align: left;
     font-size: 11px;
-    color: #be1d0b;
+    color: #FE0000;
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.5s;
@@ -634,7 +661,7 @@ footer h3 {
 }
 
 .footer-left h6:hover {
-    color: #4C19F0;
+    color: #CDFF00;
 }
 
 
@@ -648,14 +675,14 @@ footer h3 {
 .footer-right i {
     font-size: 15px;
     line-height: 30px;
-    color: #be1d0b;
+    color: #FE0000;
     transition: color 0.5s;
     -webkit-transition-property: color;
     -webkit-transition-duration: 0.5s;
 }
 
 .footer-right i:hover {
-    color: #4C19F0;
+    color: #CDFF00;
 }
 
 .footer-right a {
@@ -692,7 +719,7 @@ footer h3 {
         position: fixed;
         width: auto;
         height: auto;
-        background: #e13d44;
+        background: #CDFF00;
         right: -100%;
         top: 0;
         text-align: left;
@@ -710,7 +737,7 @@ footer h3 {
     }
 
     .mostrar-menu-btn i {
-        color: #4C19F0;
+        color: #;
         line-height: 25px;
         z-index: 2000;
     }
@@ -719,7 +746,7 @@ footer h3 {
         display: block;
         padding: 20px;
         padding-right: 0;
-        color: #4C19F0;
+        color: #06090F;
         text-align: right;
         font-size: 15px;
         z-index: 2000;
@@ -728,12 +755,12 @@ footer h3 {
     .menu a:hover,
     .mostrar-menu-btn:hover,
     .esconder-menu-btn:hover {
-        color: #06090F;
+        color: #FE0000;
     }
 
     .esconder-menu-btn {
         display: block;
-        color: #64cdbc;
+        color: #06090F;
         position: absolute;
         line-height: 80px;
         top: 0;
