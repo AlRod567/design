@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'HelveticaNowDisplay';
+    font-family: 'HelveticaNowDisplay', 'Monument Extended';
     background-color: #06090F;
     transition: .3s ease all;
 }
